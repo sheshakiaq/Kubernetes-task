@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+  namespace: task-kube
+data:
+  APP_NAME: "Kube-Task-App"
+  ENVIRONMENT: "Dev"
